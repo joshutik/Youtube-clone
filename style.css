@@ -1,0 +1,278 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0px;
+    
+}
+
+.search-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo>a {
+    margin-right: 1rem;
+}
+
+.logo:hover .bi-list {
+    background-color: rgba(128, 128, 128, 0.193);
+    border: none;
+    border-radius: 50%;
+    padding: 0.6rem 0.7rem;
+    outline: none;
+}
+
+.search-con {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.more-details {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    padding: 0 0.8rem;
+    border-radius: 5rem;
+
+}
+
+.bi-three-dots-vertical:hover {
+    cursor: pointer;
+}
+
+.account {
+    margin-left: 1rem;
+}
+
+.account:hover p {
+    cursor: pointer;
+}
+
+.bi {
+    font-size: 1.5rem;
+    color: black;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    margin-right: 1rem;
+}
+
+form>button {
+    padding: 0 0.4rem;
+    width: 17%;
+    border: 1px solid black;
+    border-left: none;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+input {
+    padding: 0.8rem;
+    width: 100%;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border: 1px solid black;
+}
+
+
+
+.bi-mic-fill {
+    background-color: rgba(128, 128, 128, 0.193);
+    border: none;
+    border-radius: 50%;
+    padding: 0.6rem 0.7rem;
+    outline: none;
+}
+
+.bi-mic-fill:hover {
+    cursor: pointer;
+}
+
+/* aside */
+aside {
+    /* width: 50%; */
+    padding: 0 0.8rem;
+    /* border-right: 1px solid black; */
+    margin-top: 5rem;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem 1.8rem;
+    display: inline-block;
+}
+
+li {
+    display: block;
+    padding: 0 1rem;
+}
+
+li:hover {
+    background-color: rgb(208, 208, 208);
+    cursor: pointer;
+    border-radius: 2.3rem;
+}
+
+.top-link {
+    padding: 0.7rem 0;
+}
+
+.account-2 {
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+.side-person {
+    display: flex;
+    align-items: center;
+}
+
+.des {
+    padding: 0.8rem 0;
+}
+
+.side-account {
+    padding: 0rem 0 1.5rem;
+}
+
+.side-account>p {
+    padding: 1rem 0;
+}
+
+.explore {
+    padding: 1rem 1.4rem;
+}
+
+.footer {
+    padding: 1rem 2rem;
+}
+
+.footer>p {
+    line-height: 30px;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-text-2 {
+    margin: 1rem 0;
+
+}
+
+
+/* main */
+
+main>section {
+    display: grid;
+    grid-template-columns: 24% auto;
+    justify-content: start;
+    grid-gap: 0px;
+    /* width: 80%; */
+}
+
+/* content-videos */
+.categories {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: start;
+    flex-wrap: nowrap;
+    margin-left: 0px;
+    overflow-x: scroll;
+    width: 80%;
+    position: fixed;
+    top: 2rem;
+}
+
+
+.cat-btn {
+    width: 100%;
+   
+}
+
+.cat-btns{
+    border: none;
+    width: 50px;
+    height: 30px;
+    overflow:none;
+    text-align: center;
+    width: 8rem;
+}
+
+.cat-btns:hover {
+    cursor: pointer;
+    background-color: rgba(207, 204, 204, 0.783);
+    border-radius: 0.4rem;
+}
+
+
+.video-content {
+    margin:11rem 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.vidoes {
+    /* width: 55%; */
+    margin-left: 1rem;
+}
+
+.actual-video > iframe{
+    border-radius: 1rem !important;
+}
+
+.actual-video > iframe{
+    border-radius: 1rem !important;
+}
+
+.video-details > img{
+    border-radius:50px;
+    width: 50px !important;
+    height: 50px;
+}
+
+.actual-video > iframe:hover{
+    border-radius: 0rem !important;
+}
+
+.video-details {
+    display: flex;
+    margin: 0.6rem;
+}
+
+.video-detail{
+    padding: 0 2rem;
+}
+
+.views, .days {
+    display: inline-block;
+    margin-top: 1rem 0 !important;
+}
